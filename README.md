@@ -1,51 +1,73 @@
 
-# Employee Skills Tracker - Refactor & Optimize
+# Employee Skills Tracker - Optimisation Task
 
 ## Overview
-This project is an **Employee Skills Tracker** application consisting of:  
-1. **Backend:** Java Spring Boot REST API using in-memory mock data.  
-2. **Frontend:** Angular with Angular Material for the UI.  
+This project is an **Employee Skills Tracker** application designed to manage employees and their skills. It consists of:  
+1. **Backend:** A Java Spring Boot REST API using in-memory mock data.  
+2. **Frontend:** An Angular application utilising Angular Material for UI components.
 
-The application was initially created by a Junior Engineer. Your task is to **analyze, refactor, and optimize** the codebase to make it production-ready, scalable, and maintainable.  
+The application was initially created by a Junior Engineer. Your task is to **analyse and propose optimisations** to the codebase to make it production-ready, scalable, and maintainable.
 
 ---
 
 ## Task Description
-Your goal is to improve this project so that it can:  
-- Scale to support **millions of users**.  
-- Follow best practices for clean, maintainable, and testable code.  
-- Be production-ready, ensuring performance, security, and modularity.
-
-### Instructions
-1. **Analyze the Codebase:** Identify key areas of improvement in both backend and frontend code.  
-2. **Refactor & Optimize:** Implement changes to address the identified issues.  
-3. **Document Your Changes:** Provide a summary explaining the improvements you made and why.  
-4. **Test Your Code:** Add unit tests and integration tests where applicable.  
+Your goal is to assess the current implementation and propose improvements to ensure the project can:
+- Scale effectively to handle **millions of users**.  
+- Follow **industry best practices** for maintainable and testable code.  
+- Meet the requirements for a **production-ready application**, including performance, security, and modularity.
 
 ---
 
 ## Deliverables
-1. **Refactored Project Code**: Submit the improved code as a GitHub repository or zip file.  
-2. **Technical Documentation**:  
-   - Outline the key changes and improvements.  
-   - Explain how the changes make the app scalable and production-ready.  
-3. **Test Coverage**: Add unit tests and integration tests where applicable.  
-4. **Setup Instructions**: Update the README file with instructions for running the improved application.
+1. **Optimisation Proposal Document**:  
+   - Identify key areas for improvement in both the backend and frontend.
+   - Propose specific optimisations with justifications (e.g., performance, scalability, security).
+   - Be prepared to discuss your recommendations during the interview.
+2. **Implementation Plan (Optional)**:  
+   - Provide a high-level plan for implementing your proposed changes.
+
+---
+
+## Instructions
+1. **Analyse the Codebase**:  
+   - Review both the backend and frontend code to identify issues or inefficiencies.  
+   - Focus on areas such as architecture, scalability, performance, and security.
+2. **Propose Optimisations**:  
+   - Document your findings and recommendations in a concise, structured format.
+   - Address backend and frontend improvements separately.
+3. **Prepare for Discussion**:  
+   - Be ready to explain your proposals during the interview.
+   - Highlight how your optimisations align with the requirements for a production-grade application.
+
+---
+
+## Areas to Consider
+While conducting your analysis, consider the following aspects of the application:
+- **Backend**:
+  - Data persistence: Consider replacing in-memory data with a scalable database solution.
+  - API structure: Ensure RESTful design and compliance with best practices.
+  - Security: Evaluate for potential vulnerabilities (e.g., authentication, input validation).
+  - Performance: Optimise for low latency and high throughput.
+
+- **Frontend**:
+  - Component structure: Ensure modularity and maintainability.
+  - UI/UX: Propose improvements for a more intuitive and responsive interface.
+  - Error handling: Ensure robust handling of API errors and user feedback.
+  - Testing: Identify gaps in test coverage and suggest improvements.
+
+---
+
+## Notes
+- The current application is a prototype and lacks several production-ready features.
+- You are not required to implement the proposed changes, but your recommendations should demonstrate an understanding of scalability, clean architecture, and best practices.
 
 ---
 
 ## Evaluation Criteria
-1. **Code Quality**: Clean, readable, maintainable code, and error treatment following best practices.  
-2. **Scalability**: Database persistence, optimized endpoints, and modular frontend.  
-3. **Testing**: Unit tests and integration tests to ensure code reliability.  
-4. **Problem-Solving**: Clear identification and resolution of performance bottlenecks and architectural flaws.  
-5. **Documentation**: Clarity in describing improvements and how they contribute to production readiness.
-
-### Bonus Points  
-- Implement **JWT-based authentication** for secure API access.  
-- Add **pagination** and **sorting** to the employee and skills list endpoints.  
-- Optimize frontend for performance by using **lazy loading** and **Angular services**.  
-- Containerize the app using **Docker** for deployment.  
+- **Analytical Skills**: Ability to identify weaknesses and propose practical solutions.
+- **Clarity**: Clearly document and explain your recommendations.
+- **Technical Knowledge**: Demonstrate a solid understanding of software design, performance optimisation, and scalability.
+- **Communication**: Effectively present your ideas during the discussion.
 
 ---
 
