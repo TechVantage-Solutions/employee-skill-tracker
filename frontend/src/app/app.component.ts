@@ -36,8 +36,8 @@ export class AppComponent implements OnInit {
       ...this.skillForm.value
     };
 
-    this.http.post('/api/employee-skills', assignment).subscribe(() => {
-      alert('Skill assigned successfully!');
+    this.http.post('http://localhost:8080/api/employee-skills', assignment).subscribe(() => {
+      alert(`Skill ID ${assignment.skillId} assigned successfully with proficiency level of ${assignment.proficiencyLevel}!`);
     });
   }
 }
